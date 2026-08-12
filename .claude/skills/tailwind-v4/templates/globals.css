@@ -1,0 +1,106 @@
+/* ==========================================================================
+   TEMA DO PROJETO
+
+   Este arquivo é um MODELO. Ao iniciar um site:
+   1. troque os valores pelas cores e fonte da marca;
+   2. APAGUE os tokens que o projeto não usa — arquivo enxuto é o objetivo,
+      token órfão vira dúvida ("posso usar?") e lixo no CSS gerado;
+   3. acrescente o que faltar, seguindo os grupos abaixo.
+   ========================================================================== */
+
+@import "tailwindcss";
+
+/* --------------------------------------------------------------------------
+   Reset
+   -------------------------------------------------------------------------- */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+/* --------------------------------------------------------------------------
+   Valores crus
+
+   Só o que precisa ser trocável em runtime (tema claro/escuro, white-label)
+   ou reaproveitado por mais de um token.
+
+   NUNCA use prefixo --color- aqui, nem nome da paleta do Tailwind
+   (gray, blue, slate…): sobrescreveria a paleta nativa no site inteiro.
+   -------------------------------------------------------------------------- */
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --surface-base: #fafafa;
+}
+
+body {
+  color: var(--color-body);
+  font-family: var(--font-roboto), sans-serif;
+}
+
+/* --------------------------------------------------------------------------
+   Tokens do tema — viram utilitários do Tailwind
+   -------------------------------------------------------------------------- */
+
+@theme inline {
+  /* Fonte ---------------------------------------------------------------- */
+  --font-roboto: var(--font-roboto);
+
+  /* Cores · marca -------------------------------------------------------- */
+  --color-primary: #00526b;
+  --color-primary-hover: #007194;
+  --color-secondary: #00a19b;
+  --color-secondary-dark: #18847c;
+  --color-accent: #3d6070;
+
+  /* Cores · texto -------------------------------------------------------- */
+  --color-body: #444444;
+  --color-heading: #1f2937;
+  --color-muted: #737373;
+  --color-disabled: #a2a2a2;
+
+  /* Cores · fundo, superfície e borda ------------------------------------ */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-background-subtle: var(--surface-base);
+  --color-surface-hover: var(--surface-base);
+  --color-surface-active: #f0f0f0;
+  --color-border: #f0f0f0;
+
+  /* Cores · feedback ----------------------------------------------------- */
+  --color-danger: #b42318;
+  --color-success: #067647;
+
+  /* Tipografia · escala fluida (viewport 768px → 1440px) ------------------ */
+  --text-responsive-2xl: clamp(2rem, 0.2857rem + 3.5714vw, 3.5rem); /* 32px → 56px · hero */
+  --text-responsive-xl: clamp(1.75rem, 0.3214rem + 2.9762vw, 3rem); /* 28px → 48px · h1 */
+  --text-responsive-lg: clamp(1.625rem, 0.625rem + 2.0833vw, 2.5rem); /* 26px → 40px · h2 */
+  --text-responsive-sm: clamp(1.375rem, 1.1rem + 1.125vw, 2rem); /* 22px → 32px · h3 */
+  --text-heading-xs: clamp(1.125rem, 0.8393rem + 0.5952vw, 1.375rem); /* 18px → 22px · card */
+  --text-responsive-md: clamp(1rem, 0.8571rem + 0.2976vw, 1.125rem); /* 16px → 18px · corpo */
+
+  /* Tipografia · rótulos (tamanho fixo) ----------------------------------- */
+
+  /* Rótulo de bloco dentro de conteúdo (ex.: "Conteúdos relacionados") */
+  --text-subheading: 1.25rem; /* 20px */
+  --text-subheading--line-height: 1.5rem; /* 24px */
+
+  /* Rótulo de apoio em caixa alta — tags, categorias e datas de card */
+  --text-eyebrow: 0.75rem; /* 12px */
+  --text-eyebrow--line-height: 0.875rem; /* 14px */
+  --text-eyebrow--letter-spacing: 0.1667em;
+  --text-eyebrow--font-weight: 500;
+}

@@ -1,0 +1,10 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // IntelliSense do Tailwind dentro de twMerge() e tv()
+  "tailwindCSS.experimental.classRegex": [
+    ["([\"'`][^\"'`]*.*?[\"'`])", "[\"'`]([^\"'`]*).*?[\"'`]"],
+    "class:\\s*?[\"'`]([^\"'`]*).*?,"
+  ]
+}
