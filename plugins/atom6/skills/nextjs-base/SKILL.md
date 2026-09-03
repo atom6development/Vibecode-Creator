@@ -1,6 +1,6 @@
 ---
 name: nextjs-base
-description: Padrão de projeto Next.js da Atom6 Studio — comando de criação, limpeza pós-scaffold, estrutura de pastas com src/, arquivos de config (next.config.mjs, jsconfig, eslint, postcss) e convenções de código (Server vs Client Component, nomenclatura, organização de componentes, imports com @/) e roteamento do App Router (criar páginas, rotas aninhadas, dinâmicas e agrupadas). Use SEMPRE que for criar um projeto Next.js do zero, criar/mover arquivos dentro de um projeto Next, ou decidir onde um componente deve morar.
+description: Padrão de projeto Next.js da Atom6 Studio — comando de criação, limpeza pós-scaffold, estrutura de pastas com src/, arquivos de config (next.config.mjs, jsconfig, eslint, postcss) e convenções de código (Server vs Client Component, nomenclatura, organização de componentes, imports com @/) e roteamento do App Router (criar páginas, rotas aninhadas, dinâmicas e agrupadas). Use SEMPRE que for criar um projeto Next.js do zero, criar/mover arquivos dentro de um projeto Next, ou decidir onde um componente deve morar. Restrita a projetos no padrão da Atom6 — os iniciados com /atom6:novo-projeto ou cujo CLAUDE.md aponta para estas skills; não use em projeto de outro padrão.
 ---
 
 # Next.js — base de projeto Atom6

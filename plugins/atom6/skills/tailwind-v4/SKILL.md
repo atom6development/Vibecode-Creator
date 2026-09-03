@@ -1,6 +1,6 @@
 ---
 name: tailwind-v4
-description: Padrão de estilização da Atom6 Studio com Tailwind CSS v4 — configuração via CSS (@theme), tokens de cor nomeados, tipografia responsiva com clamp() e proibição de valores arbitrários (cor, texto, espaçamento). Use SEMPRE que for criar/editar globals.css, definir cores ou fontes, escrever classes de um componente ou revisar estilos de um projeto Tailwind v4.
+description: Padrão de estilização da Atom6 Studio com Tailwind CSS v4 — configuração via CSS (@theme), tokens de cor nomeados, tipografia responsiva com clamp() e proibição de valores arbitrários (cor, texto, espaçamento). Use SEMPRE que for criar/editar globals.css, definir cores ou fontes, escrever classes de um componente ou revisar estilos de um projeto Tailwind v4. Restrita a projetos no padrão da Atom6 — os iniciados com /atom6:novo-projeto ou cujo CLAUDE.md aponta para estas skills; não use em projeto de outro padrão.
 ---
 
 # Tailwind v4 — padrão Atom6

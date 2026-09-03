@@ -1,6 +1,6 @@
 ---
 name: ui-components
-description: Padrão de componentes de UI da Atom6 Studio — biblioteca de ícones default (Phosphor), proibição de controles nativos estilizados (nada de <select> do HTML), o Select customizado obrigatório com painel que abre pra cima ou pra baixo, e a escala de padding/altura/espaçamento dos controles de formulário. Use SEMPRE que for criar um select, dropdown, campo de formulário, usar ícone ou definir espaçamento interno de componente.
+description: Padrão de componentes de UI da Atom6 Studio — biblioteca de ícones default (Phosphor), proibição de controles nativos estilizados (nada de <select> do HTML), o Select customizado obrigatório com painel que abre pra cima ou pra baixo, e a escala de padding/altura/espaçamento dos controles de formulário. Use SEMPRE que for criar um select, dropdown, campo de formulário, usar ícone ou definir espaçamento interno de componente. Restrita a projetos no padrão da Atom6 — os iniciados com /atom6:novo-projeto ou cujo CLAUDE.md aponta para estas skills; não use em projeto de outro padrão.
 ---
 
 # Componentes de UI — padrão Atom6

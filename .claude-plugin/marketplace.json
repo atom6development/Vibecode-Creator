@@ -1,0 +1,19 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "atom6",
+  "description": "Padrões de frontend da Atom6 Studio para Claude Code",
+  "owner": {
+    "name": "Atom6 Studio"
+  },
+  "plugins": [
+    {
+      "name": "atom6",
+      "description": "Agente de frontend da Atom6 Studio. Conduz a descoberta com o designer e monta o front no padrão da casa — React + JavaScript + Tailwind v4, Next.js quando precisa de SEO e Vite quando não precisa, mobile-first, acessível e com componentes reutilizáveis.",
+      "author": {
+        "name": "Atom6 Studio"
+      },
+      "source": "./plugins/atom6",
+      "category": "development"
+    }
+  ]
+}
