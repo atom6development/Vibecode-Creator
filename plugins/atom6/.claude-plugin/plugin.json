@@ -1,0 +1,9 @@
+{
+  "name": "atom6",
+  "description": "Agente de frontend da Atom6 Studio. Conduz a descoberta com o designer e monta o front no padrão da casa — React + JavaScript + Tailwind v4, Next.js quando precisa de SEO e Vite quando não precisa, mobile-first, acessível e com componentes reutilizáveis.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Atom6 Studio"
+  },
+  "keywords": ["frontend", "nextjs", "vite", "tailwind", "react", "atom6"]
+}

@@ -1,6 +1,6 @@
 ---
 name: seo-metadata
-description: Passe final de SEO da Atom6 — varre todas as rotas do projeto Next.js e cria/ajusta os metadados de cada página (title, description, Open Graph, Twitter, canonical, favicon/OG image, sitemap.js e robots.js). Roda DEPOIS que a POC está pronta e aprovada, nunca durante a construção das telas. Use quando o pedido for "rodar o SEO", "ajustar os metadados", "preparar pra publicar" ou quando o projeto entrar na fase final.
+description: Passe final de SEO da Atom6 — varre todas as rotas do projeto Next.js e cria/ajusta os metadados de cada página (title, description, Open Graph, Twitter, canonical, favicon/OG image, sitemap.js e robots.js). Roda DEPOIS que a POC está pronta e aprovada, nunca durante a construção das telas. Use quando o pedido for "rodar o SEO", "ajustar os metadados", "preparar pra publicar" ou quando o projeto entrar na fase final. Restrita a projetos no padrão da Atom6 — os iniciados com /atom6:novo-projeto ou cujo CLAUDE.md aponta para estas skills; não use em projeto de outro padrão.
 ---
 
 # SEO & metadados — passe final Atom6
